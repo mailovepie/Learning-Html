@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h3>Job Application</h3>
+	<label for="name">Name: </label>
+	<input type="text" name="name" id="name"> <br>
+	<label for="email">Email: </label>
+	<input type="email" name="email" id="email"> <br>
+	<label for="Phone">Phone: </label>
+	<input type="tel" name="Phone" id="Phone"> <br>
+	<label for="resume">Resume: </label>
+	<input type="file" name="resume" id="resume"> <br>
+	<label for="year">Experience (years): </label>
+	<input type="number" placeholder="0" id="years" name="years" min="0" max="50"> <br>
+	<fieldset>
+		<legend>Skills</legend>
+		<input type="checkbox" name="html" id="html">
+		<label for="html">HTML</label> <br>
+		<input type="checkbox" name="css" id="css">
+		<label for="css">CSS</label> <br>
+		<input type="checkbox" name="js" id="js">
+		<label for="js">CSS</label> <br>
+	</fieldset>
+	<label for="he">Highest Education</label>
+	<select name="he" id="he">
+		<option value="High School">High School</option>
+		<option value="Graduate">Graduate</option>
+		<option value="Post Graduate">Post Graduate</option>
+	</select> <br>
+Availability: <br>
+<input type="radio" name="radio" id="radio1">
+<label for="radio1"> Full Time</label> <br>
+<input type="radio" name="radio" id="radio2">
+<label for="radio2">Part Time</label> <br>
+<label for="ac">Additional Comments:</label> <br>
+<textarea name="textarea" id="ac" cols="15" rows="10"></textarea>
+</body>
+</html>
